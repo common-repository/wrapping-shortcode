@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "asm-wrapping-shortcode/asm-wrapping-shortcode-block",
+  "version": "0.1.0",
+  "title": "Wrapping ShortCode",
+  "category": "widgets",
+  "description": "This plugin provides a shortcode block. It is not just a shortcode, it is a shortcode block that wraps other blocks.",
+  "keywords": [
+    "asumaru",
+    "wrapping",
+    "shortcode"
+  ],
+  "attributes": {
+    "shortcode": {
+      "type": "string",
+      "selector": ".wrapping-sc",
+      "default": ""
+    },
+    "comment": {
+      "type": "string",
+      "selector": ".wrapping-sc",
+      "default": ""
+    },
+    "options": {
+      "type": "string",
+      "selector": ".wrapping-sc"
+    }
+  },
+  "example": {
+    "attributes": {
+      "shortCode": "commentout",
+      "comment": "Please Comment"
+    }
+  },
+  "supports": {
+    "className": false,
+    "customClassName": true,
+    "html": true
+  },
+  "usesContext": [
+    "content"
+  ],
+  "textdomain": "asm-wrapping-shortcode-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "icon": ""
+}

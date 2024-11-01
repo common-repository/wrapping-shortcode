@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-asm-wrapping-shortcode-asm-wrapping-shortcode-block {
+	border: 1px dotted black;
+}
+.wp-block-asm-wrapping-shortcode-asm-wrapping-shortcode-block h5 {
+	width: 100%;
+	margin: 0px 0px;
+	background-color: dimgray;
+	color: white;
+	text-align: center;
+}
+wp-block-asm-wrapping-shortcode-asm-wrapping-shortcode-block .wrapping-sc {
+	width: 100%;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+.asmwsc-control {
+	width: 99%;
+	padding: 0 1em 0 0.5em;
+}
+
+.asmwsc-control input,
+.asmwsc-control textarea,
+.asmwsc-control select {
+			font-weight: bolder;
+}
